@@ -4,50 +4,54 @@
   <img src=".github/images/lumina-trace.gif" width="800">
 </p>
 
-[![Play Lumina Trace](https://img.shields.io/badge/Play-Lumina%20Trace-brightgreen?style=for-the-badge&logo=unity)](https://ganesha-shiisa.github.io/lumina-trace/)
-
-`Lumina Trace` は、3D空間内を浮遊する彗星のような光体コアをコントロールし、 Trail Renderer による光の軌跡や、 Particle System による残光演出を楽しむ ビジュアルインタラクション作品です。
+`Lumina Trace` is a visual interaction project where you control a comet-like luminous core floating in a 3D space, enjoying light trails created by a Trail Renderer and afterglow effects powered by a Particle System.
 
 ## Play Now
 
-👉 https://ganesha-shiisa.github.io/lumina-trace/
+👉 [https://ganesha-shiisa.github.io/lumina-trace/](https://ganesha-shiisa.github.io/lumina-trace/)
 
-## 主な機能 (Features)
+## Features
 
-- **彗星風トレイル演出**:
-  - Unity Particle System を活用した発光トレイルエフェクトを実装。
-  - オブジェクト後方へ粒子を継続的に放出し、彗星や流星を思わせる残光表現を実現。
-  - 速度に応じて尾の流れを変化させ、ダイナミックな飛行演出を構築。
-- **リボン状の軌跡エフェクト (Trail Renderer)**:
-  - 光体コアの移動履歴を Trail Renderer により描画し、空間上に美しい軌跡を残します。
-- **光体コアの移動制御**:
-  - Rigidbodyベースの移動システムにより、滑らかで重厚感のある曲線軌道を描きます。
-- **カメラ追従と演出**:
-  - 移動速度を考慮したダイナミックな追従カメラを実装。
-  - 慣性を持つスムーズな位置補間により、ドローンカメラのような自然な追尾表現を実現。
-  - 滑らかな視線補間によって、被写体を追いかける臨場感のあるカメラワークを構築。
+- **Comet-Style Trail Effects**:
+  - Implements glowing trail effects using the Unity Particle System.
+  - Continuously emits particles behind the object to create a comet- or meteor-like afterglow.
+  - Dynamically adjusts tail behavior based on speed for an immersive flight feel.
 
-## 操作方法 (Controls)
+- **Ribbon-Like Trail Renderer**:
+  - Draws the movement history of the luminous core using a Trail Renderer, leaving a beautiful trace in space.
 
-| 操作                | 割り当て                  | 説明                                                                    |
-| :------------------ | :------------------------ | :---------------------------------------------------------------------- |
-| **方向転換 / 加速** | マウス左クリック / タップ | 光体コアへ新たな推進力を与え、 ダイナミックな軌跡の変化を生み出します。 |
+- **Luminous Core Movement Control**:
+  - Delivers smooth and weighty curved trajectories powered by a Rigidbody-based movement system.
 
-## プロジェクトのセットアップ (Getting Started)
+- **Camera Tracking and Dynamics**:
+  - Features a dynamic tracking camera that reacts to movement speed.
+  - Achieves natural, drone-like tracking with smooth, inertia-based position interpolation.
+  - Employs smooth gaze interpolation for immersive camera work that locks onto the subject.
 
-1. **リポジトリのクローン**:
+## Controls
+
+| Action                            | Assignment             | Description                                                                             |
+| --------------------------------- | ---------------------- | --------------------------------------------------------------------------------------- |
+| **Change Direction / Accelerate** | Left Mouse Click / Tap | Applies a new impulse to the luminous core, creating dynamic changes in its trajectory. |
+
+## Getting Started
+
+1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/ganesha-shiisa/lumina-trace.git
    ```
-2. **Unity Hub で開く**:
-   - Unity Hub を起動し、`Unity 6` (または対象のバージョン) でプロジェクトを追加して開きます。
-3. **メインシーンの移動**:
-   - `Assets/Scenes/` 以下のメインシーン（例: `SampleScene`）を開いて再生（Play）します。
 
-## ライセンス (License)
+2. **Open in Unity Hub**:
+   - Launch Unity Hub, add the project, and open it with `Unity 6` (or the target version).
+
+3. **Open the Main Scene**:
+   - Open the main scene under `Assets/Scenes/` (e.g., `SampleScene`) and hit Play.
+
+## License
 
 [MIT License](LICENSE)
 
-## 作者 (Author)
+## Author
 
-- **GaneshaShiisa** - [GitHub Profile](https://github.com/ganesha-shiisa)
+- **GaneshaShiisa** [GitHub Profile](https://github.com/ganesha-shiisa)
