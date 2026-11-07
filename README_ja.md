@@ -4,7 +4,7 @@
   <img src=".github/images/lumina-trace.gif" width="800">
 </p>
 
-[![Play Lumina Trace](https://img.shields.io/badge/Play-Lumina%20Trace-brightgreen?style=for-the-badge&logo=unity)](https://ganesha-shiisa.github.io/lumina-trace/)
+[English](./README.md) | 日本語
 
 `Lumina Trace` は、3D空間内を浮遊する彗星のような光体コアをコントロールし、 Trail Renderer による光の軌跡や、 Particle System による残光演出を楽しむ ビジュアルインタラクション作品です。
 

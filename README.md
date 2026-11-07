@@ -4,6 +4,8 @@
   <img src=".github/images/lumina-trace.gif" width="800">
 </p>
 
+English | [日本語](./README_ja.md)
+
 `Lumina Trace` is a visual interaction project where you control a comet-like luminous core floating in a 3D space, enjoying light trails created by a Trail Renderer and afterglow effects powered by a Particle System.
 
 ## Play Now
